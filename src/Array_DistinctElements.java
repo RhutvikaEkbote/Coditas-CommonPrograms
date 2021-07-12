@@ -9,11 +9,12 @@ public class Array_DistinctElements {
 		System.out.println("Distinct elements is :");
 				
 		for (int i = 0; i < arr.length; i++) {
-			for (j = 0; j < i; j++) 
+			for (j = 0; j < arr.length; j++) 
 				if (arr[i]== arr[j])
 				break;
 				
 				if(i==j) 
+					
 					System.out.print(arr[i]+" ");
 				
 
